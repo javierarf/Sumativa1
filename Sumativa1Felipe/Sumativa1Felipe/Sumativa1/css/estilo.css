@@ -11,7 +11,9 @@
 .carousel-item img{
     display: block;
     margin: auto;
-    max-height: 400px;
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
 }
 
 .container1{
@@ -28,4 +30,27 @@ text-align: left;
     justify-content: center;
     align-items: center;
 
+  }
+  .carousel-item{
+    background-color: #000000a9 ;
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .container-product{
+    background-color: black;
+  }
+  .imagenes{
+    background-color: rgba(0, 0, 0, 0.541);
+  }
+  .align-middle {
+    display: flex;
+    align-items: center;
+  }
+  .container-imagen{
+    background-color: rgba(0, 0, 0, 0.226);
+  }
+  .nav-item{
+    font-size: 1.5rem;
   }
