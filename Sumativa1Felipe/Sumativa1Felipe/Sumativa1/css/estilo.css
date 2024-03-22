@@ -13,3 +13,19 @@
     margin: auto;
     max-height: 400px;
 }
+
+.container1{
+text-align: left;
+}
+.container2{
+    text-align: center;
+}
+.container3{
+ text-align: right;   
+}
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
