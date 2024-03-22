@@ -8,3 +8,8 @@
 #navbar{
     background-color: rgb(93, 155, 212);
 }
+.carousel-item img{
+    display: block;
+    margin: auto;
+    max-height: 400px;
+}
